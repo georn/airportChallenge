@@ -5,13 +5,17 @@ var Airport = function() {
   this.capacity = DEFAULT_CAPACITY;
 
   Airport.prototype.landingPlane = function (plane) {
-    plane.landAt(this);
-    this.hangar.push(plane);
-    return "A plane has arrived."
+    if(this.hangar.length < this.capacity) {
+      plane.landAt(this);
+      this.hangar.push(plane);
+      return "A plane has arrived."
+    } else {
+      throw("The airport is full.")
+    }
   };
 
   Airport.prototype.overrideCapacity = function (number) {
     this.capacity = number;
   };
-  
+
 };

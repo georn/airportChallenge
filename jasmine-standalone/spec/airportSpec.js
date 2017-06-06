@@ -29,6 +29,11 @@ describe('Airport', function() {
       airport.overrideCapacity(52);
       expect(airport.capacity).toEqual(52);
     });
+
+    // Throw error mystery
+    // xit('check if it throws an error', function() {
+    //   expect( function() { airport.landingPlane(plane); } ).toThrowError("The airport is full.");
+    // });
   });
 
 });
