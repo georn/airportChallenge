@@ -20,8 +20,8 @@ describe('Airport', function() {
     });
   });
 
-  describe('override default capacity',function() {
-    it('check default capacity',function(){
+  describe('airport capacity',function() {
+    it('check default capacity', function(){
       expect(airport.capacity).toEqual(51);
     });
 
@@ -29,6 +29,12 @@ describe('Airport', function() {
       airport.overrideCapacity(52);
       expect(airport.capacity).toEqual(52);
     });
+
+    it('checks if airport is full', function() {
+      airport.overrideCapacity(0);
+      expect(airport.landingPlane(plane)).toThrow();
+    });
   });
+
 
 });
