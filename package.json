@@ -1,0 +1,26 @@
+{
+  "name": "airportchallenge",
+  "version": "1.0.0",
+  "description": "Airport Challenge from Makers Academy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georn/airportChallenge.git"
+  },
+  "author": [
+    "Guillermo Olmos",
+    "Kavita Kalaichelvan"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georn/airportChallenge/issues"
+  },
+  "homepage": "https://github.com/georn/airportChallenge#readme",
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "jasmine-spec-reporter": "^4.2.1"
+  }
+}
