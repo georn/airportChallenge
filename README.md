@@ -4,7 +4,7 @@ This is a revisit of the [Airport Challenge](https://github.com/georn/airport-ch
 done in Ruby, now done using Javascript ES5 syntax and Test-Driven Development
 using [Jasmine](https://jasmine.github.io/).
 
-## Task
+## Main Task
 
 We have a request from a client to write the software to control the flow of
 planes at an airport. The planes can land and take off provided that the weather
@@ -38,7 +38,7 @@ So that the software can be used for many different airports
 I would like a default airport capacity that can be overridden as appropriate
 ```
 
-## TODO
+## Main Tasks
 
 - [x] A Plane can land at an airport and confirm it has landed
 - [x] A Plane can take off from an airport and confirm it has taken off
@@ -47,6 +47,12 @@ I would like a default airport capacity that can be overridden as appropriate
 - [x] The airport have a default capacity
 - [x] A Plane does not land when the airport is full
 - [x] The airport capacity can be overridden
+
+## Development
+
+So, after leaving this code to gain some dust for a few months, I decided to start to refactor it for the sake of practice.
+
+So I chosen to built it into a Node.js application, so the Jasmine standalone can be deleted and brought instead in the form of a package using `npm`. This also brings the possibility of building it with an CLI Interface.
 
 ## Collaborators
 
