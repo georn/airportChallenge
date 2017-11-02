@@ -1,5 +1,6 @@
 describe('Airport', function() {
-
+  var Airport = require('../src/Airport.js');
+  var Plane = require('../src/Plane.js');
   var airport;
   var plane;
 
