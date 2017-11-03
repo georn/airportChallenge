@@ -1,4 +1,6 @@
-# Airport Challenge
+# Airport Challenge [![Build Status](https://travis-ci.org/georn/airportChallenge.svg?branch=master)](https://travis-ci.org/georn/airportChallenge)
+
+**Week 5 Challenge at Makers Academy**
 
 This is a revisit of the [Airport Challenge](https://github.com/georn/airport-challenge)
 done in Ruby, now done using Javascript ES5 syntax and Test-Driven Development
@@ -38,7 +40,7 @@ So that the software can be used for many different airports
 I would like a default airport capacity that can be overridden as appropriate
 ```
 
-## Main Tasks
+## Main Tasks List
 
 - [x] A Plane can land at an airport and confirm it has landed
 - [x] A Plane can take off from an airport and confirm it has taken off
@@ -47,6 +49,16 @@ I would like a default airport capacity that can be overridden as appropriate
 - [x] The airport have a default capacity
 - [x] A Plane does not land when the airport is full
 - [x] The airport capacity can be overridden
+
+## Quickstart
+
+First, you will need to clone the repository, change the directory and install the dependencies in order to run it:
+
+```
+git clone git@github.com:georn/airportChallenge.git
+cd airportChallenge
+npm install
+```
 
 ## Development
 
@@ -60,3 +72,8 @@ This amazing person collaborated to the code, but by that time I wasn't a good
 git collaborator. Thus, here are some credits.
 
 - [Kavita Kalaichelvan](https://github.com/kkavita92)
+
+## Tech Stack
+
+- Javascript ES5
+- Jasmine
