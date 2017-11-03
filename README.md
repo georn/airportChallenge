@@ -75,5 +75,9 @@ git collaborator. Thus, here are some credits.
 
 ## Tech Stack
 
+Here is a list of the technologies used:
+
 - Javascript ES5
-- Jasmine
+- Node.js
+- [Jasmine](https://jasmine.github.io/)
+- Travis CI
